@@ -6,9 +6,6 @@ import re
 import time
 import google.generativeai as genai
 
-
-import google.generativeai as genai
-
 if "api_key" not in st.session_state:
     st.session_state.api_key = ""
 
